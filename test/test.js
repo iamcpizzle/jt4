@@ -20,6 +20,6 @@ describe ('hello', function () {
 		assert.equal(foo, 'bar');
 		assert.lengthOf(foo, 3)
 		assert.property(tea, 'flavors');
-		assert.lengthOf(tea.flavors, 3);
+		assert.lengthOf(tea.flavors, 4);
 	});
 });
