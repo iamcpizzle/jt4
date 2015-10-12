@@ -7,3 +7,15 @@ describe('Array', function() {
     });
   });
 });
+
+var chai = require("chai");
+var assert = chai.assert;
+var foo = "bar";
+var tea = {'flavors': ["matcha", "osmanthus", "jasmine"]};
+
+
+assert.typeOf(foo, 'string');
+assert.equal(foo, 'bar');
+assert.lengthOf(foo, 3)
+assert.property(tea, 'flavors');
+assert.lengthOf(tea.flavors, 3);
